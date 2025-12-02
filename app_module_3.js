@@ -25,3 +25,15 @@ let index = fruit.indexOf("Mango");
 let index1 = fruit.indexOf("na");
 console.log( index);
 console.log( index1);
+
+
+//method chainning in JavaScript
+let city = "     New Delhi     ";
+// let NewCity = city.trim();
+// console.log("After trim :",NewCity);
+// NewCity = NewCity.toUpperCase();
+// console.log("After UpperCase :",NewCity);
+
+//Method chainning
+let NewCity = city.trim().toUpperCase();
+console.log("After method chainning :",NewCity);
