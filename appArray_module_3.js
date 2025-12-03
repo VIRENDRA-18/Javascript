@@ -30,3 +30,13 @@ console.log(Months.shift());
 console.log(Months.unshift("june"));// add june at first
 console.log(Months.unshift("july"));
 console.log(Months);
+
+//indexOf method
+
+let Colors = ["Red", "Green", "Blue", "Yellow", "Purple"];
+console.log(Colors);
+console.log(Colors.indexOf("Blue")); //2
+console.log(Colors.indexOf("Pink")); //-1 (not found)
+console.log(Colors.includes("Yellow")); //true
+console.log(Colors.includes("Cyan")); //falses
+console.log(Colors[1]);
